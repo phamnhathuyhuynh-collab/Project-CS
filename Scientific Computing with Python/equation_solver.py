@@ -123,6 +123,6 @@ lin_eq = LinearEquation(2, 3)
 quadr_eq = QuadraticEquation(1, -3, 2)
 print(solver(quadr_eq))
 print(solver(lin_eq))
-        
+#source from freeCodeCamp, i'm just a learner
         
         
