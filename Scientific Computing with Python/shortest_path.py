@@ -33,3 +33,4 @@ def shortest_paths(graph, start, target=''):
         print(f'\n{start}-{node} distance: {distances[node]}\nPath: {" -> ".join(paths[node])}')
     return distances, paths
 shortest_paths(my_graph, 'A')    
+#source from freeCodeCamp, i'm just a learner
