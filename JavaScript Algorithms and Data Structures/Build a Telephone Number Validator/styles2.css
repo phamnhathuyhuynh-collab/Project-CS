@@ -1,0 +1,158 @@
+:root {
+    --background-color: #3b3b4f;
+    --resultDiv-color: #f0f0f5;
+    --telephone-color: #1a1a1a;
+    --userInput-color: #ffffff;
+    --button-bg: #4a4ae9;
+    --button-hover: #3b3bc4;
+    --text-color: #333333;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: 'Arial', sans-serif;
+    color: var(--userInput-color);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: var(--userInput-color);
+    font-size: 2rem;
+    margin: 20px 0;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+img.freecodecamp-logo {
+    width: 250px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.phone-container {
+    background-color: var(--resultDiv-color);
+    position: relative;
+    margin: 20px auto;
+    width: 300px;
+    height: 450px;
+    border-radius: 20px;
+    border: 10px solid var(--telephone-color);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.phone-background {
+    background-color: var(--telephone-color);
+    width: 100%;
+    height: 25px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.phone-camera {
+    background-color: #ffffff;
+    width: 12px;
+    height: 12px;
+    margin: 6px auto;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+}
+
+label {
+    background-color: var(--resultDiv-color);
+    margin: 10px auto;
+    font-size: 1.1rem;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+#user-input {
+    width: 90%;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#user-input:focus {
+    border-color: var(--button-bg);
+    box-shadow: 0 0 8px rgba(74, 74, 233, 0.3);
+}
+
+#results-div {
+    overflow-y: auto;
+    height: 280px;
+    width: 90%;
+    padding: 10px;
+    font-size: 1rem;
+    color: var(--text-color);
+    line-height: 1.5;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin: 10px 0;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.results-text {
+    font-size: 1rem;
+    padding: 5px;
+    color: var(--text-color);
+    margin: 5px 0;
+}
+
+.btn-footer {
+    background-color: var(--telephone-color);
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#check-btn, #clear-btn {
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--button-bg);
+    color: var(--userInput-color);
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#check-btn:hover, #clear-btn:hover {
+    background-color: var(--button-hover);
+    transform: translateY(-2px);
+}
+
+#check-btn:active, #clear-btn:active {
+    transform: translateY(0);
+}
