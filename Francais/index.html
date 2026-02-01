@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Huy — Portfolio</title>
+
+  <link rel="stylesheet" href="./styles.css" />
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="nav-wrap">
+      <a class="brand" href="#top" aria-label="Go to top">
+        <div class="logo" aria-hidden="true"></div>
+        <span>Huy • Portfolio</span>
+      </a>
+
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="#about"><i class="fa-regular fa-user"></i>About</a></li>
+          <li><a href="#projects"><i class="fa-regular fa-folder-open"></i>Projects</a></li>
+          <li><a href="#contact"><i class="fa-regular fa-paper-plane"></i>Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div>
+        <div class="kicker"><span class="dot"></span>Open to opportunities • Remote/On-site</div>
+
+        <h1>
+          Bonjour, c’est <span class="grad">Huy</span><br>
+          Je suis passionné par l’IA et l’algorithmique.
+        </h1>
+
+        <p>
+          Ce portfolio personnel, réalisé par moi avec le soutien de l’IA, me permet de présenter mes projets
+          à travers une interface claire et soignée, tout en exprimant mon intérêt pour l’intelligence artificielle.
+        </p>
+
+        <div class="actions">
+          <a class="btn primary" href="#projects"><i class="fa-solid fa-bolt"></i>View Projects</a>
+          <a class="btn" href="CV.pdf" target="_blank" rel="noreferrer">
+            <i class="fa-regular fa-file-lines"></i>Download CV
+          </a>
+          <a class="btn" href="#contact"><i class="fa-regular fa-envelope"></i>Contact</a>
+        </div>
+      </div>
+
+      <aside class="hero-card" aria-label="Quick profile card">
+        <div class="avatar">HUY</div>
+        <div class="mini">
+          <strong class="mini-title">Quick Summary</strong><br>
+          • Algorithmic thinking • Clean code • Optimization<br>
+          • Projects: Palindrome Checker, Cash Register, Roman Numeral Converter, Phone Number Validator
+        </div>
+
+        <div class="chips" aria-label="Skills">
+          <div class="chip"><i class="fa-brands fa-python"></i>Python</div>
+          <div class="chip"><i class="fa-solid fa-code"></i>C</div>
+          <div class="chip"><i class="fa-brands fa-html5"></i>HTML</div>
+          <div class="chip"><i class="fa-brands fa-css3-alt"></i>CSS</div>
+          <div class="chip"><i class="fa-brands fa-js"></i>JavaScript</div>
+          <div class="chip"><i class="fa-brands fa-git-alt"></i>Git</div>
+          <div class="chip"><i class="fa-brands fa-github"></i>GitHub</div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <h2 class="section-title">About</h2>
+      <p class="section-sub">
+        Une courte présentation axée sur l’IA, l’algorithmique et la rigueur du code.
+      </p>
+
+      <div class="about-grid">
+        <div class="card">
+          <h3 class="card-h">Ce que j’apporte</h3>
+          <p class="card-p">
+            Je privilégie une pensée algorithmique claire, le clean code et l’optimisation. Dans mes projets, je me concentre
+            sur la construction d’une logique solide, un traitement efficace des données et l’amélioration continue des performances des algorithmes.
+          </p>
+
+          <div class="sp-14"></div>
+
+          <h3 class="card-h">Compétences</h3>
+          <div class="chips" aria-label="Skills">
+            <div class="chip"><i class="fa-brands fa-python"></i>Python</div>
+            <div class="chip"><i class="fa-solid fa-code"></i>C</div>
+            <div class="chip"><i class="fa-brands fa-git-alt"></i>Git</div>
+            <div class="chip"><i class="fa-brands fa-github"></i>GitHub</div>
+            <div class="chip"><i class="fa-brands fa-js"></i>JavaScript</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 class="card-h">Projets phares</h3>
+          <p class="card-p">
+            Palindrome Checker (Vérificateur de palindrome), Cash Register (Caisse enregistreuse),
+            Roman Numeral Converter (Convertisseur de chiffres romains), Phone Number Validator (Validateur de numéros de téléphone).
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <article class="project">
+          <div class="thumb">
+            <img src="Roman Convert.png" alt="Roman Convert" loading="lazy">
+          </div>
+          <div class="project-body">
+            <div class="project-title">
+              <h3>Convertisseur de chiffres romains</h3>
+              <span class="badge">Algorithme</span>
+
+            </div>
+            <p class="project-desc">Développer la logique algorithmique à travers la conversion de chiffres romains.</p>
+            <div class="tags">
+              <span class="tag">HTML/CSS/JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a class="small-btn primary" href="https://phamnhathuyhuynh-collab.github.io/Project-CS/Project%20Final/Roman%20Numeral%20Converter/" target="_blank" rel="noreferrer">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>Demo
+              </a>
+              <a class="small-btn" href="https://github.com/phamnhathuyhuynh-collab/Project-CS/tree/main/Project%20Final/Roman%20Numeral%20Converter" target="_blank" rel="noreferrer">
+                <i class="fa-brands fa-github"></i>Code
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project">
+          <div class="thumb">
+            <img src="Todo App.png" alt="Todo app" loading="lazy">
+          </div>
+          <div class="project-body">
+            <div class="project-title">
+              <h3>Todo App</h3>
+              <span class="badge">Frond-End</span>
+            </div>
+            <p class="project-desc">Apprendre à résoudre des problèmes concrets du quotidien</p>
+            <div class="tags">
+              <span class="tag">HTML/CSS/JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a class="small-btn primary" href="https://phamnhathuyhuynh-collab.github.io/Project-CS/JavaScript%20Algorithms%20and%20Data%20Structures/Building%20a%20TodoApp/" target="_blank" rel="noreferrer">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>Demo
+              </a>
+              <a class="small-btn" href="https://github.com/phamnhathuyhuynh-collab/Project-CS/tree/main/JavaScript%20Algorithms%20and%20Data%20Structures/Building%20a%20TodoApp" target="_blank" rel="noreferrer">
+                <i class="fa-brands fa-github"></i>Code
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project">
+          <div class="thumb">
+            <img src="Rock Paper Scissor.png" alt="Rock Paper Scissor" loading="lazy">
+          </div>
+          <div class="project-body">
+            <div class="project-title">
+              <h3>Jeu Pierre-Feuille-Ciseaux</h3>
+              <span class="badge">Game</span>
+            </div>
+            <p class="project-desc">allier l’apprentissage, le divertissement et les algorithmes</p>
+            <div class="tags">
+              <span class="tag">HTML/CSS/JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a class="small-btn primary" href="https://phamnhathuyhuynh-collab.github.io/Project-CS/JavaScript%20Algorithms%20and%20Data%20Structures/Rock%20Paper%20Scissors%20game/" target="_blank" rel="noreferrer">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>Demo
+              </a>
+              <a class="small-btn" href="https://github.com/phamnhathuyhuynh-collab/Project-CS/tree/main/JavaScript%20Algorithms%20and%20Data%20Structures/Rock%20Paper%20Scissors%20game" target="_blank" rel="noreferrer">
+                <i class="fa-brands fa-github"></i>Code
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="project">
+          <div class="thumb">
+            <img src="dijsktras_algorithm.png" alt="Dijkstra" loading="lazy">
+          </div>
+          <div class="project-body">
+            <div class="project-title">
+              <h3>Petite Dijkstra Algorithme</h3>
+              <span class="badge">Algorithme</span>
+            </div>
+            <p class="project-desc">Étudier le fonctionnement de l’algorithme de Dijkstra et ses techniques d’optimisation</p>
+            <div class="tags">
+              <span class="tag">Python</span>
+            </div>
+            <div class="project-links">
+              <a class="small-btn" href="https://github.com/phamnhathuyhuynh-collab/Project-CS/tree/main/Scientific%20Computing%20with%20Python" target="_blank" rel="noreferrer">
+                <i class="fa-brands fa-github"></i>Code
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 5 -->
+        <article class="project">
+          <div class="thumb">
+            <img src="Sudoku.png" alt="Sudoku" loading="lazy">
+          </div>
+          <div class="project-body">
+            <div class="project-title">
+              <h3>Solveur de Sudoku</h3>
+              <span class="badge">Algorithme/OOP</span>
+            </div>
+            <p class="project-desc">Apprendre la POO à travers des projets et l’utilisation d’algorithmes pour résoudre des problèmes du quotidien</p>
+            <div class="tags">
+              <span class="tag">Python</span>
+            </div>
+            <div class="project-links">
+              <a class="small-btn" href="https://github.com/phamnhathuyhuynh-collab/Project-CS/tree/main/Scientific%20Computing%20with%20Python" target="_blank" rel="noreferrer">
+                <i class="fa-brands fa-github"></i>Code
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 6 -->
+        <article class="project">
+          <div class="thumb">
+            <img src="Tour de Hanoi.png" alt="Tour Hanoi" loading="lazy">
+          </div>
+          <div class="project-body">
+            <div class="project-title">
+              <h3>Tours de Hanoï</h3>
+              <span class="badge">Algorithme</span>
+            </div>
+            <p class="project-desc">Utilisation d’un algorithme récursif pour résoudre le jeu.</p>
+            <div class="tags">
+              <span class="tag">Python</span>
+            </div>
+            <div class="project-links">
+              <a class="small-btn" href="https://github.com/phamnhathuyhuynh-collab/Project-CS/tree/main/Scientific%20Computing%20with%20Python" target="_blank" rel="noreferrer">
+                <i class="fa-brands fa-github"></i>Code
+              </a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="more">
+        <a class="btn" href="https://github.com/phamnhathuyhuynh-collab" target="_blank" rel="noreferrer">
+          <i class="fa-brands fa-github"></i>En savoir plus sur GitHub
+        </a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <h2 class="section-title">Contact</h2>
+      <p class="section-sub">
+        Si vous souhaitez échanger sur des opportunités, collaborer ou me faire un retour sur mon portfolio, n’hésitez pas à me contacter.
+      </p>
+
+      <div class="contact-grid">
+        <div class="card contact-card">
+          <h3 class="card-h">Let’s work together</h3>
+
+          <div class="contact-list">
+            <a class="contact-item" href="mailto:youremail@example.com">
+              <i class="fa-regular fa-envelope"></i>
+              <div>
+                <span>Email</span>
+                <small>phamnhathuyhuynh@gmail.com</small>
+              </div>
+            </a>
+
+            <a class="contact-item" href="#" target="_blank" rel="noreferrer">
+              <i class="fa-solid fa-location-dot"></i>
+              <div>
+                <span>Location</span>
+                <small>France</small>
+              </div>
+            </a>
+
+            <a class="contact-item" href="CV.pdf" target="_blank" rel="noreferrer">
+              <i class="fa-regular fa-file-lines"></i>
+              <div>
+                <span>CV</span>
+                <small>Open / Download</small>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 class="card-h">Social</h3>
+          <div class="socials">
+            
+            <a class="social" href="https://www.linkedin.com/in/pham-nhat-huy-huynh-753153325/" target="_blank" rel="noreferrer">
+              <i class="fa-brands fa-linkedin-in"></i>LinkedIn
+            </a>
+            <a class="social" href="https://github.com/phamnhathuyhuynh-collab" target="_blank" rel="noreferrer">
+              <i class="fa-brands fa-github"></i>GitHub
+            </a>
+            <a class="social" href="https://www.facebook.com/profile.php?id=100029277009096" target="_blank" rel="noreferrer">
+              <i class="fa-brands fa-facebook-f"></i>Facebook
+            </a>
+            <a class="social" href="https://www.instagram.com/huynhhuy_2106/" target="_blank" rel="noreferrer">
+              <i class="fa-brands fa-instagram"></i>Insta
+            </a>
+
+            
+          </div>
+
+          <div class="sp-14"></div>
+          <p>
+            Je réponds rapidement par e-mail. Vous pouvez également consulter mes projets sur GitHub ou me contacter via LinkedIn/ Facebook/ Instagram.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="foot">
+      <div>© <span id="y"></span> Huy. All rights reserved.</div>
+      <div>
+        Built with <a href="#top">HTML/CSS</a> •
+        <a href="#projects">Projects</a> •
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
